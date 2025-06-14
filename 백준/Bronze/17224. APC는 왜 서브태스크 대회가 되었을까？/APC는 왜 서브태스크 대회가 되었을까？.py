@@ -11,4 +11,4 @@ for i in range(n):
     elif sub1[i]<=l:
         pos.append(100)
 pos.sort()
-print(sum(pos[-1*k:]))
+print(sum(pos[-1*k:]) if k!=0 else 0)
