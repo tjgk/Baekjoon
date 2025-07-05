@@ -1,0 +1,1 @@
+print(str(int("".join(reversed(input())))).count("0"))
