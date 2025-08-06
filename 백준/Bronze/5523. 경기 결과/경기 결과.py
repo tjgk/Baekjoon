@@ -1,3 +1,6 @@
+import sys
+input=sys.stdin.readline
+
 A,B=0,0
 for i in range(int(input())):
     a,b=map(int,input().split())
