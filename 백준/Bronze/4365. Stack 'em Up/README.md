@@ -28,6 +28,8 @@
 
 <p>Several lines follow; each containing an integer k between 1 and n indicating that you have observed the dealer applying the kth shuffle given in the input.</p>
 
+주의사항 : 셔플 방법을 입력받을 때 52개의 숫자가 반드시 2줄로 주어지는 것이 아님
+
 ### 출력 
 
  <p>Assume the dealer starts with a new deck ordered as described above. After each shuffle, give the names of the cards in the deck, in the new order, followed by an empty line.</p>
