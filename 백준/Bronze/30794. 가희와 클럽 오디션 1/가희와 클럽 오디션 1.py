@@ -1,0 +1,7 @@
+a,b=input().split()
+a=int(a)
+if b=="perfect":print(a*1000)
+elif b=="great":print(a*600)
+elif b=="cool":print(a*400)
+elif b=="bad":print(a*200)
+else:print(0)
